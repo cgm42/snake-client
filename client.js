@@ -12,7 +12,7 @@ const connect = function () {
 
   conn.on("connect", () => {
     console.log("Successfully connected to game server")
-    conn.write('Name: CGP');
+ 
   })
 
   conn.on("data", (data) => {
